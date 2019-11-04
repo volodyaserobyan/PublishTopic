@@ -1,0 +1,137 @@
+.mediaDiv {
+    height: 100%;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.imggggg {
+    width: 100%;
+    padding: 5px;
+}
+
+.containerChooseFileImg {
+   
+    width: 500px;
+    display: flex;
+
+}
+
+.imgItem {
+    width: 250px;
+    display: flex;
+    /* margin-bottom: -18px; */
+    flex-direction: column;
+    align-items: flex-end;
+}
+.descriptionBlogMedia {
+    color: #7B7B7B;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.submitMedia {
+    width: 200px;
+    height: 30px;
+    opacity: 1;
+    letter-spacing: 2.31px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border: none;
+    color: white;
+    margin-top: 50px;
+}
+
+.imageContainer {
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.imagees {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fullImage {
+    min-height: 102vh;
+    min-width: 100%;
+    margin-top: -74px;
+    margin-left: -17%;
+    /* margin-left: -190px; */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00000029;
+    z-index: 100;
+}
+
+.fullImg {
+    width: 70%;
+    height: 70%;
+    max-width: 900px;
+    max-height: 750px;
+}
+
+.arrowImg {
+    width: 20px;
+    cursor: pointer;
+}
+
+.arrowDiv {
+    position: absolute;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .fileInput {
+    border: 1px solid red;
+    width: 247px;
+    height: 248px;
+    display: inline-block;
+    background: url('../../images/add (1).svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75% 75%;
+    overflow: hidden;
+}
+
+.hiddenFileInput > input{
+    height: 100%;
+    width: 100;
+    opacity: 0;
+    cursor: pointer;
+  } */
+
+  .hiddenFileInput > input{
+    height: 100%;
+    width: 100;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .hiddenFileInput{
+    border: 1px solid #ccc;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    overflow: hidden;
+    
+    /*for the background, optional*/
+    background: center center no-repeat;
+    /* background-size: 75% 75%; */
+    background-image:  url('../../images/add (1).svg')
+  }
+
+.deleteIcon {
+    width: 20px;
+    /* margin-bottom: -30px; */
+    position: absolute;
+    background: none;
+    z-index: 50;
+    cursor: pointer;
+}

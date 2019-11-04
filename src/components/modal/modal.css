@@ -1,0 +1,49 @@
+
+.mainDiv {
+    width: 100%;
+    height: 100vh;
+    background-color: #00000029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalDiv {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    padding: 15px;
+}
+
+.modalContext {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalIcon {
+    width: 60px;
+}
+
+.pBodyModal {
+    text-align: center;
+    color: #272727;
+    margin-top: 9px;
+    font-size: 13px;
+    opacity: 1;
+    letter-spacing: 0;
+}
+
+.modalButton {
+    width: 150px;
+    height: 30px;
+    opacity: 1;
+    letter-spacing: 2.31px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border: none;
+    color: white;
+    margin-top: 30px;
+}

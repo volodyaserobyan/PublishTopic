@@ -1,0 +1,101 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.footerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* padding: 10px; */
+}
+
+.telPhone {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.tel {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phoneNumber {
+    /* margin-right: 200px; */
+    width: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.company {
+    width: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.home {
+    width: 520px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 20px;
+} 
+
+.helpSupp {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.faq {
+    width: 520px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.social {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.social b {
+    text-align: left;
+}
+
+.secPage {
+    width: 200px;
+    display: flex;
+}
+
+.secPage input {
+    border: none;
+    border-bottom: 1px solid #9A9A9A;
+}
+
+.yourEmail::placeholder {
+    color: black;
+}
+
+.itemsDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
